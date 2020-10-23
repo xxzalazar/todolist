@@ -1,0 +1,45 @@
+.forms{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/wallpaper.jpg');
+}
+.forms form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 5px;
+    border: 1.5px #dddbdb solid;
+    padding: 1.2vw;
+}
+#welcome{
+    border-radius: 5px;
+    border: 1.5px #dddbdb solid;
+    padding: 1.2vw;
+    margin-bottom: 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+.forms button{
+    border: none;
+    border-radius: 30px;
+    width: 30%;
+    background-color: rgb(82, 225, 145);
+    padding: 0.5vw;
+    color: #ffffff;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.forms h3{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 4vw;   
+}
+.forms div{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.forms div a{
+    text-decoration: underline;
+}
